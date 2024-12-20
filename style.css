@@ -6,4 +6,58 @@
 
 body {
     background-color: #f5f4f0;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.header-title span {
+    color: #e1624f;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+h1{
+    color: #1b1b1b;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+     
+}
+
+.description {
+     color: #333333;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 400;
+     font-style: italic;
+     font-size: 16px; 
+     text-align: center; 
+}
+
+hr {
+    color: #d9d9d9;
 }
