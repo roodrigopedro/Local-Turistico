@@ -61,3 +61,103 @@ h1{
 hr {
     color: #d9d9d9;
 }
+
+.content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.content-list-decription {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content-list-decription span {
+    color: #e1624f;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.content-list-decription h2 {
+    color: #1b1b1b;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.content-list-decription p {
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.cards p {
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+}
+
+.cards h2 {
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h3 {
+    color: #1b1b1b;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px; 
+}
+
+.card-1 .card-2 .card-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.card-1, .card-2 span {
+    color: #0c51a7;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card-3 :nth-child(2) {
+    color: #591b98;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card-3 :nth-child(4) {
+    color: #e5245e;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card-3 :nth-child(6) {
+    color: #e95e10;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
